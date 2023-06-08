@@ -10,9 +10,9 @@ import { dirname, join } from 'path';
 
 //crea instancia de express
 const app = express()
-// se indica que usará lso cors
+// Permite comunicacion en la web
 app.use(cors())
-//pa que haga peticiones
+//Permite leer cuerpo de solicitudes
 app.use(express.json());
 
 // const __filename = fileURLToPath(import.meta.url);
